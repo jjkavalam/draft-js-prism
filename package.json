@@ -1,6 +1,6 @@
 {
-  "name": "draft-js-prism",
-  "version": "1.0.3-jjkavalam",
+  "name": "draft-js-prism-for-snippets",
+  "version": "1.0.3",
   "description": "Code highlighting for DraftJS. Modified. 1) Included prismjs dist (with java syntax support) in the source and removed prismjs (1.5.0) package as a dependency. 2) fixed bug related to token.content being an array",
   "main": "./lib/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SamyPesse/draft-js-prism.git"
+    "url": "git+https://github.com/jjkavalam/draft-js-prism.git#for-snippets"
   },
   "keywords": [
     "draft-js"
