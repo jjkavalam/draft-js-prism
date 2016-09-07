@@ -20,7 +20,7 @@ class PrismEditorExample extends React.Component {
         super(props);
 
         var decorator = new PrismDraftDecorator({
-            defaultSyntax: "javascript"
+            defaultSyntax: "java"
         });
         var contentState = convertFromRaw({
             entityMap: {},
@@ -31,11 +31,11 @@ class PrismEditorExample extends React.Component {
                 },
                 {
                     type: 'unstyled',
-                    text: 'Type some JavaScript below:'
+                    text: 'Type some Java below:'
                 },
                 {
                     type: 'code-block',
-                    text: 'var message = "This is awesome!";'
+                    text: 'class MyClass {};'
                 }
             ]
         })
